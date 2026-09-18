@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -20,7 +20,7 @@
 }
 
 .logo {
-    background-image: url("/images/amazon_logo.png");
+    background-image: url("./images/amazon_logo.png");
     background-size: cover;
     height:50px;
     width: 100px;
@@ -242,7 +242,7 @@ ul a{
 }
 
 .logo {
-    background-image: url("/images/amazon_logo.png");
+     background-image: url("./images/amazon_logo.png");
     background-size: cover;
     height:50px;
     width: 100px;
